@@ -92,9 +92,3 @@ Experiment with non‑linear models such as Random Forest or Gradient Boosting.
 Add more features like location or house age if available.
 
 ​
-
-Future improvements
-Experiment with non‑linear models such as Random Forest or Gradient Boosting.
-​
-
-Add more features like location or house age if available.
