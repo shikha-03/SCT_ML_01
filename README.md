@@ -1,6 +1,4 @@
-# SCT_ML_01
-
-Project overview
+# Project overview
 Goal: Implement a linear regression model to predict house prices.
 
 Inputs (features): square footage of the house, number of bedrooms, number of bathrooms.
@@ -9,7 +7,7 @@ Output (target): predicted selling price of the house.
 ​
 
 
-Dataset
+# Dataset
 train.csv: Training data with features and target price.
 ​
 test.csv: Test data without target price, used for final predictions.
@@ -20,7 +18,7 @@ sample_submission.csv: Example file showing the required submission format.
 ​
 
 
-Project structure
+# Project structure
 task1.ipynb: Main notebook with EDA, model training, evaluation, and prediction steps.
 
 train.csv: Training data.
@@ -35,7 +33,7 @@ data_description.txt: Column definitions and additional details.
 ​
 
 
-Approach
+# Approach
 Load and inspect the dataset (missing values, data types, basic statistics).
 ​
 Perform EDA: distributions of square footage, bedrooms, bathrooms; relationships with price using scatter plots and correlation.
@@ -52,7 +50,7 @@ Generate predictions for test.csv and save them to submission.csv in the require
 ​
 
 
-How to run
+# How to run
 Clone the repository:
 
 bash
@@ -70,7 +68,7 @@ Open and run the notebook task1.ipynb in Jupyter/Colab and execute all cells.
 
 
 ​
-Technologies used
+# Technologies used
 Python.
 
 NumPy, pandas for data manipulation.
@@ -81,14 +79,14 @@ Scikit‑learn for linear regression modeling.
 ​
 
 
-Results
+# Results
 Trained a linear regression model to predict house prices from square footage, bedrooms, and bathrooms.​
 
 Generated predictions for the test set and stored them in submission.csv.
 
 
 
-Future improvements
+# Future improvements
 Experiment with non‑linear models such as Random Forest or Gradient Boosting.
 
 Add more features like location or house age if available.
